@@ -138,7 +138,7 @@ function createDiamonds() {
 }
 
 function createJwellery() {
-  if (World.frameCount % 80 == 0) {
+  if (World.frameCount % 120 == 0) {
   var jwellery = createSprite(Math.round(random(50, 350),40, 10, 10));
   jwellery.addImage(jwelleryImg);
   jwellery.scale = 0.13;
@@ -149,7 +149,7 @@ function createJwellery() {
 }
 
 function createSword(){
-  if (World.frameCount % 150 == 0) {
+  if (World.frameCount % 170 == 0) {
   var sword = createSprite(Math.round(random(50, 350),40, 10, 10));
   sword.addImage(swordImg);
   sword.scale = 0.1;
